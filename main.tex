@@ -1,0 +1,46 @@
+\documentclass{ctexbook}
+\usepackage{subfiles}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+}
+ 
+\urlstyle{same}
+
+\usepackage{geometry}
+\geometry{
+  a4paper,
+  total={170mm,257mm},
+  left=20mm,
+  top=20mm
+}
+\usepackage{graphicx}
+
+\usepackage{listings}
+\lstset{basicstyle=\ttfamily, numbers=left}
+\renewcommand\lstlistingname{代码}
+\renewcommand\lstlistlistingname{代码索引}
+\usepackage{afterpage}
+
+\newcommand \blankpage{
+    \null
+    \thispagestyle{empty}
+    \addtocounter{page}{-1}
+    \newpage
+}
+
+\title{\includegraphics[]{logo.png}\\ Orange Juice \\ 详细设计说明书}
+
+\author{陈铮 \\ zccz14@Function-X.org}
+\date{2016 年 12 月}
+
+\begin{document}
+
+\maketitle
+
+\tableofcontents
+
+\end{document}
